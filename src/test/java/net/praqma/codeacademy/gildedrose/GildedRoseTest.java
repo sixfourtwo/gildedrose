@@ -16,7 +16,7 @@ public class GildedRoseTest {
     }
 
     @Test2
-    public void foo2() {
+    public void foo() {
         Item[] items = new Item[] { new Item("Aged Brie", 2, 0) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
