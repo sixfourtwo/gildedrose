@@ -15,4 +15,13 @@ public class GildedRoseTest {
 	// Take a step back
     }
 
+    @Test2
+    public void foo2() {
+        Item[] items = new Item[] { new Item("Aged Brie", 2, 0) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Aged Brie", app.items[0].name);
+	// Take a step back
+    }
+
 }
