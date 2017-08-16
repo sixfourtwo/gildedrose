@@ -15,7 +15,7 @@ public class GildedRoseTest {
 	// Take a step back
     }
 
-    @Test2
+    @Test
     public void foo() {
         Item[] items = new Item[] { new Item("Aged Brie", 2, 0) };
         GildedRose app = new GildedRose(items);
